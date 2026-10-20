@@ -1,0 +1,40 @@
+
+/* 1. Element selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 20px;
+}
+
+/* 2. Element selector */
+h1 {
+    color: #1d3557;
+    text-align: center;
+}
+
+/* 3. Class selector */
+.highlight {
+    background-color: #ffe8a3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 4. ID selector */
+#about {
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #457b9d;
+}
+
+/* 5. Descendant selector */
+nav a {
+    color: #0077b6;
+    text-decoration: none;
+    margin: 8px;
+}
+
+/* 6. Pseudo-class selector */
+a:hover {
+    color: #e63946;
+    text-decoration: underline;
+}
